@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="6" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Click on the create an account tab : [[ChromeDriver: chrome on WINDOWS (8269d46fa3497b8d7ed067072a5e5d24)] -> xpath: //span[normalize-space()='Create an account']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering firstname[[ChromeDriver: chrome on WINDOWS (8269d46fa3497b8d7ed067072a5e5d24)] -> xpath: //input[@id='customer_firstname']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering lastname[[ChromeDriver: chrome on WINDOWS (8269d46fa3497b8d7ed067072a5e5d24)] -> xpath: //input[@id='customer_lastname']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering password[[ChromeDriver: chrome on WINDOWS (8269d46fa3497b8d7ed067072a5e5d24)] -> xpath: //input[@id='passwd']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering address[[ChromeDriver: chrome on WINDOWS (8269d46fa3497b8d7ed067072a5e5d24)] -> xpath: //input[@id='address1']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering city[[ChromeDriver: chrome on WINDOWS (8269d46fa3497b8d7ed067072a5e5d24)] -> xpath: //input[@id='city']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Selecting the state[[ChromeDriver: chrome on WINDOWS (8269d46fa3497b8d7ed067072a5e5d24)] -> xpath: //select[@id='id_state']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering postalcode[[ChromeDriver: chrome on WINDOWS (8269d46fa3497b8d7ed067072a5e5d24)] -> xpath: //input[@id='postcode']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering contact number[[ChromeDriver: chrome on WINDOWS (8269d46fa3497b8d7ed067072a5e5d24)] -> xpath: //input[@id='phone_mobile']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on register link[[ChromeDriver: chrome on WINDOWS (8269d46fa3497b8d7ed067072a5e5d24)] -> xpath: //button[@id='submitAccount']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Verifying the message[[ChromeDriver: chrome on WINDOWS (8269d46fa3497b8d7ed067072a5e5d24)] -> xpath: //h1[contains(text(),'My account')]]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on the create an account tab : [[ChromeDriver: chrome on WINDOWS (4215cf2b4b7efcb59344302cb94d0acc)] -> xpath: //span[normalize-space()='Create an account']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering firstname[[ChromeDriver: chrome on WINDOWS (4215cf2b4b7efcb59344302cb94d0acc)] -> xpath: //input[@id='customer_firstname']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering lastname[[ChromeDriver: chrome on WINDOWS (4215cf2b4b7efcb59344302cb94d0acc)] -> xpath: //input[@id='customer_lastname']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering password[[ChromeDriver: chrome on WINDOWS (4215cf2b4b7efcb59344302cb94d0acc)] -> xpath: //input[@id='passwd']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering address[[ChromeDriver: chrome on WINDOWS (4215cf2b4b7efcb59344302cb94d0acc)] -> xpath: //input[@id='address1']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering city[[ChromeDriver: chrome on WINDOWS (4215cf2b4b7efcb59344302cb94d0acc)] -> xpath: //input[@id='city']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Selecting the state[[ChromeDriver: chrome on WINDOWS (4215cf2b4b7efcb59344302cb94d0acc)] -> xpath: //select[@id='id_state']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering postalcode[[ChromeDriver: chrome on WINDOWS (4215cf2b4b7efcb59344302cb94d0acc)] -> xpath: //input[@id='postcode']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering contact number[[ChromeDriver: chrome on WINDOWS (4215cf2b4b7efcb59344302cb94d0acc)] -> xpath: //input[@id='phone_mobile']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on register link[[ChromeDriver: chrome on WINDOWS (4215cf2b4b7efcb59344302cb94d0acc)] -> xpath: //button[@id='submitAccount']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[verifying error message : [[ChromeDriver: chrome on WINDOWS (4215cf2b4b7efcb59344302cb94d0acc)] -> css selector: div[class='alert alert-danger'] p]<br>]]>
+    </line>
+    <line>
+      <![CDATA[closing shopping cart window : [[ChromeDriver: chrome on WINDOWS (3f7bdf883246d4eca0c9c7fea8833553)] -> xpath: //span[@title='Close window']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[accepting the alert : [[ChromeDriver: chrome on WINDOWS (087a2d2696722db4757dcb5e01d23fed)] -> css selector: .dismissButton]<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="52449" started-at="2021-12-26T21:25:55Z" finished-at="2021-12-26T21:26:48Z">
+    <groups>
+      <group name="regression">
+        <method signature="CreateAccountTest.customerCanCreateANewAccountUsingValidDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automationpractice.testsuite.CreateAccountTest@91161c7]" name="customerCanCreateANewAccountUsingValidDetails" class="com.automationpractice.testsuite.CreateAccountTest"/>
+        <method signature="CreateAccountTest.userWillGetAnErrorMessageWhileCreatingAccountWithInvalidDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automationpractice.testsuite.CreateAccountTest@91161c7]" name="userWillGetAnErrorMessageWhileCreatingAccountWithInvalidDetails" class="com.automationpractice.testsuite.CreateAccountTest"/>
+        <method signature="DeletionTest.userShouldAbleToDeleteAnItemFromBasket(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automationpractice.testsuite.DeletionTest@604ed9f0]" name="userShouldAbleToDeleteAnItemFromBasket" class="com.automationpractice.testsuite.DeletionTest"/>
+        <method signature="OurStoresTest.userCanDragTheMapAndTakeScreenshot()[pri:0, instance:com.automationpractice.testsuite.OurStoresTest@6a4f787b]" name="userCanDragTheMapAndTakeScreenshot" class="com.automationpractice.testsuite.OurStoresTest"/>
+        <method signature="SummerDressesOptionTest.viewSummerDressesOptionFromTheNaviGationMenu()[pri:0, instance:com.automationpractice.testsuite.SummerDressesOptionTest@685cb137]" name="viewSummerDressesOptionFromTheNaviGationMenu" class="com.automationpractice.testsuite.SummerDressesOptionTest"/>
+        <method signature="SummerDressesPriceRangeTest.updateSearchResultsAfterChangingPriceRange()[pri:0, instance:com.automationpractice.testsuite.SummerDressesPriceRangeTest@6a41eaa2]" name="updateSearchResultsAfterChangingPriceRange" class="com.automationpractice.testsuite.SummerDressesPriceRangeTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="CreateAccountTest.userWillGetAnErrorMessageWhileCreatingAccountWithInvalidDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automationpractice.testsuite.CreateAccountTest@91161c7]" name="userWillGetAnErrorMessageWhileCreatingAccountWithInvalidDetails" class="com.automationpractice.testsuite.CreateAccountTest"/>
+        <method signature="OurStoresTest.userCanDragTheMapAndTakeScreenshot()[pri:0, instance:com.automationpractice.testsuite.OurStoresTest@6a4f787b]" name="userCanDragTheMapAndTakeScreenshot" class="com.automationpractice.testsuite.OurStoresTest"/>
+        <method signature="SummerDressesPriceRangeTest.updateSearchResultsAfterChangingPriceRange()[pri:0, instance:com.automationpractice.testsuite.SummerDressesPriceRangeTest@6a41eaa2]" name="updateSearchResultsAfterChangingPriceRange" class="com.automationpractice.testsuite.SummerDressesPriceRangeTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="CreateAccountTest.customerCanCreateANewAccountUsingValidDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automationpractice.testsuite.CreateAccountTest@91161c7]" name="customerCanCreateANewAccountUsingValidDetails" class="com.automationpractice.testsuite.CreateAccountTest"/>
+        <method signature="DeletionTest.userShouldAbleToDeleteAnItemFromBasket(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automationpractice.testsuite.DeletionTest@604ed9f0]" name="userShouldAbleToDeleteAnItemFromBasket" class="com.automationpractice.testsuite.DeletionTest"/>
+        <method signature="SummerDressesOptionTest.viewSummerDressesOptionFromTheNaviGationMenu()[pri:0, instance:com.automationpractice.testsuite.SummerDressesOptionTest@685cb137]" name="viewSummerDressesOptionFromTheNaviGationMenu" class="com.automationpractice.testsuite.SummerDressesOptionTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Surefire test" duration-ms="52449" started-at="2021-12-26T21:25:55Z" finished-at="2021-12-26T21:26:48Z">
+      <class name="com.automationpractice.testsuite.SummerDressesOptionTest">
+        <test-method status="FAIL" signature="viewSummerDressesOptionFromTheNaviGationMenu()[pri:0, instance:com.automationpractice.testsuite.SummerDressesOptionTest@685cb137]" name="viewSummerDressesOptionFromTheNaviGationMenu" duration-ms="0" started-at="2021-12-26T21:26:48Z" finished-at="2021-12-26T21:26:48Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-ECCE3OFG', ip: '192.168.1.74', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElements {using=xpath, value=//ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']//li//a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\laxmi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62665}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62665/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-ECCE3OFG', ip: '192.168.1.74', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElements {using=xpath, value=//ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']//li//a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\laxmi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62665}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62665/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:145)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:179)
+at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:102)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:390)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:87)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:37)
+at com.sun.proxy.$Proxy14.iterator(Unknown Source)
+at com.automationpractice.pages.HomePage.selectItemFromMainMenu(HomePage.java:29)
+at com.automationpractice.testsuite.SummerDressesOptionTest.viewSummerDressesOptionFromTheNaviGationMenu(SummerDressesOptionTest.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewSummerDressesOptionFromTheNaviGationMenu -->
+        <test-method status="PASS" signature="init1()[pri:0, instance:com.automationpractice.testsuite.SummerDressesOptionTest@685cb137]" name="init1" is-config="true" duration-ms="0" started-at="2021-12-26T21:26:48Z" finished-at="2021-12-26T21:26:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init1 -->
+      </class> <!-- com.automationpractice.testsuite.SummerDressesOptionTest -->
+      <class name="com.automationpractice.testsuite.SummerDressesPriceRangeTest">
+        <test-method status="FAIL" signature="updateSearchResultsAfterChangingPriceRange()[pri:0, instance:com.automationpractice.testsuite.SummerDressesPriceRangeTest@6a41eaa2]" name="updateSearchResultsAfterChangingPriceRange" duration-ms="0" started-at="2021-12-26T21:26:48Z" finished-at="2021-12-26T21:26:48Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-ECCE3OFG', ip: '192.168.1.74', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElements {using=xpath, value=//ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']//li//a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\laxmi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62665}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62665/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-ECCE3OFG', ip: '192.168.1.74', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElements {using=xpath, value=//ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']//li//a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\laxmi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62665}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62665/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:145)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:179)
+at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:102)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:390)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:87)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:37)
+at com.sun.proxy.$Proxy14.iterator(Unknown Source)
+at com.automationpractice.pages.HomePage.selectItemFromMainMenu(HomePage.java:29)
+at com.automationpractice.testsuite.SummerDressesPriceRangeTest.updateSearchResultsAfterChangingPriceRange(SummerDressesPriceRangeTest.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateSearchResultsAfterChangingPriceRange -->
+        <test-method status="PASS" signature="init1()[pri:0, instance:com.automationpractice.testsuite.SummerDressesPriceRangeTest@6a41eaa2]" name="init1" is-config="true" duration-ms="0" started-at="2021-12-26T21:26:48Z" finished-at="2021-12-26T21:26:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init1 -->
+      </class> <!-- com.automationpractice.testsuite.SummerDressesPriceRangeTest -->
+      <class name="com.automationpractice.testsuite.DeletionTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automationpractice.testsuite.DeletionTest@604ed9f0]" name="setUp" is-config="true" duration-ms="8897" started-at="2021-12-26T21:26:22Z" finished-at="2021-12-26T21:26:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.automationpractice.testsuite.DeletionTest@604ed9f0]" name="init" is-config="true" duration-ms="6" started-at="2021-12-26T21:26:31Z" finished-at="2021-12-26T21:26:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="userShouldAbleToDeleteAnItemFromBasket(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automationpractice.testsuite.DeletionTest@604ed9f0]" name="userShouldAbleToDeleteAnItemFromBasket" duration-ms="8441" started-at="2021-12-26T21:26:31Z" data-provider="Deletion Test" finished-at="2021-12-26T21:26:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Women]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Summer Dresses]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your shopping cart is empty.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[closing shopping cart window : [[ChromeDriver: chrome on WINDOWS (3f7bdf883246d4eca0c9c7fea8833553)] -> xpath: //span[@title='Close window']]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userShouldAbleToDeleteAnItemFromBasket -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automationpractice.testsuite.DeletionTest@604ed9f0]" name="tearDown" is-config="true" duration-ms="659" started-at="2021-12-26T21:26:39Z" finished-at="2021-12-26T21:26:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationpractice.testsuite.DeletionTest -->
+      <class name="com.automationpractice.testsuite.OurStoresTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automationpractice.testsuite.OurStoresTest@6a4f787b]" name="setUp" is-config="true" duration-ms="5551" started-at="2021-12-26T21:26:40Z" finished-at="2021-12-26T21:26:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.automationpractice.testsuite.OurStoresTest@6a4f787b]" name="init" is-config="true" duration-ms="3" started-at="2021-12-26T21:26:45Z" finished-at="2021-12-26T21:26:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="FAIL" signature="userCanDragTheMapAndTakeScreenshot()[pri:0, instance:com.automationpractice.testsuite.OurStoresTest@6a4f787b]" name="userCanDragTheMapAndTakeScreenshot" duration-ms="1802" started-at="2021-12-26T21:26:45Z" finished-at="2021-12-26T21:26:47Z">
+          <exception class="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">
+            <message>
+              <![CDATA[move target out of bounds
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-ECCE3OFG', ip: '192.168.1.74', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [087a2d2696722db4757dcb5e01d23fed, actions {actions=[org.openqa.selenium.interactions.Sequence@2b8d084]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\laxmi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62665}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62665/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 087a2d2696722db4757dcb5e01d23fed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-ECCE3OFG', ip: '192.168.1.74', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [087a2d2696722db4757dcb5e01d23fed, actions {actions=[org.openqa.selenium.interactions.Sequence@2b8d084]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\laxmi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62665}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62665/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 087a2d2696722db4757dcb5e01d23fed
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:627)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:617)
+at com.automationpractice.pages.OurStoresPage.scrollMapToSeeWestPalmBeach(OurStoresPage.java:36)
+at com.automationpractice.testsuite.OurStoresTest.userCanDragTheMapAndTakeScreenshot(OurStoresTest.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.interactions.MoveTargetOutOfBoundsException -->
+          <reporter-output>
+            <line>
+              <![CDATA[accepting the alert : [[ChromeDriver: chrome on WINDOWS (087a2d2696722db4757dcb5e01d23fed)] -> css selector: .dismissButton]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userCanDragTheMapAndTakeScreenshot -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automationpractice.testsuite.OurStoresTest@6a4f787b]" name="tearDown" is-config="true" duration-ms="661" started-at="2021-12-26T21:26:47Z" finished-at="2021-12-26T21:26:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationpractice.testsuite.OurStoresTest -->
+      <class name="com.automationpractice.testsuite.CreateAccountTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automationpractice.testsuite.CreateAccountTest@91161c7]" name="setUp" is-config="true" duration-ms="7772" started-at="2021-12-26T21:25:55Z" finished-at="2021-12-26T21:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.automationpractice.testsuite.CreateAccountTest@91161c7]" name="init" is-config="true" duration-ms="32" started-at="2021-12-26T21:26:03Z" finished-at="2021-12-26T21:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="customerCanCreateANewAccountUsingValidDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automationpractice.testsuite.CreateAccountTest@91161c7]" name="customerCanCreateANewAccountUsingValidDetails" duration-ms="6768" started-at="2021-12-26T21:26:03Z" data-provider="Valid Credentials" finished-at="2021-12-26T21:26:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[James]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bond]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc12456]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123 Abc Street]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Florida]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01234567890]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[MY ACCOUNT]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[James Bond]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click on the create an account tab : [[ChromeDriver: chrome on WINDOWS (8269d46fa3497b8d7ed067072a5e5d24)] -> xpath: //span[normalize-space()='Create an account']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering firstname[[ChromeDriver: chrome on WINDOWS (8269d46fa3497b8d7ed067072a5e5d24)] -> xpath: //input[@id='customer_firstname']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering lastname[[ChromeDriver: chrome on WINDOWS (8269d46fa3497b8d7ed067072a5e5d24)] -> xpath: //input[@id='customer_lastname']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering password[[ChromeDriver: chrome on WINDOWS (8269d46fa3497b8d7ed067072a5e5d24)] -> xpath: //input[@id='passwd']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering address[[ChromeDriver: chrome on WINDOWS (8269d46fa3497b8d7ed067072a5e5d24)] -> xpath: //input[@id='address1']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering city[[ChromeDriver: chrome on WINDOWS (8269d46fa3497b8d7ed067072a5e5d24)] -> xpath: //input[@id='city']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Selecting the state[[ChromeDriver: chrome on WINDOWS (8269d46fa3497b8d7ed067072a5e5d24)] -> xpath: //select[@id='id_state']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering postalcode[[ChromeDriver: chrome on WINDOWS (8269d46fa3497b8d7ed067072a5e5d24)] -> xpath: //input[@id='postcode']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering contact number[[ChromeDriver: chrome on WINDOWS (8269d46fa3497b8d7ed067072a5e5d24)] -> xpath: //input[@id='phone_mobile']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on register link[[ChromeDriver: chrome on WINDOWS (8269d46fa3497b8d7ed067072a5e5d24)] -> xpath: //button[@id='submitAccount']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Verifying the message[[ChromeDriver: chrome on WINDOWS (8269d46fa3497b8d7ed067072a5e5d24)] -> xpath: //h1[contains(text(),'My account')]]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- customerCanCreateANewAccountUsingValidDetails -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automationpractice.testsuite.CreateAccountTest@91161c7]" name="tearDown" is-config="true" duration-ms="660" started-at="2021-12-26T21:26:10Z" finished-at="2021-12-26T21:26:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automationpractice.testsuite.CreateAccountTest@91161c7]" name="setUp" is-config="true" duration-ms="5840" started-at="2021-12-26T21:26:11Z" finished-at="2021-12-26T21:26:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.automationpractice.testsuite.CreateAccountTest@91161c7]" name="init" is-config="true" duration-ms="3" started-at="2021-12-26T21:26:16Z" finished-at="2021-12-26T21:26:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="userWillGetAnErrorMessageWhileCreatingAccountWithInvalidDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automationpractice.testsuite.CreateAccountTest@91161c7]" name="userWillGetAnErrorMessageWhileCreatingAccountWithInvalidDetails" duration-ms="4679" started-at="2021-12-26T21:26:16Z" data-provider="Invalid Credentials" finished-at="2021-12-26T21:26:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[$%1234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DD12**]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc$%12456]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123 Abc Str%%t]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Lo$%^on]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Florida]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[123ssa45]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0123abcd67890]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[There are 6 errors]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click on the create an account tab : [[ChromeDriver: chrome on WINDOWS (4215cf2b4b7efcb59344302cb94d0acc)] -> xpath: //span[normalize-space()='Create an account']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering firstname[[ChromeDriver: chrome on WINDOWS (4215cf2b4b7efcb59344302cb94d0acc)] -> xpath: //input[@id='customer_firstname']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering lastname[[ChromeDriver: chrome on WINDOWS (4215cf2b4b7efcb59344302cb94d0acc)] -> xpath: //input[@id='customer_lastname']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering password[[ChromeDriver: chrome on WINDOWS (4215cf2b4b7efcb59344302cb94d0acc)] -> xpath: //input[@id='passwd']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering address[[ChromeDriver: chrome on WINDOWS (4215cf2b4b7efcb59344302cb94d0acc)] -> xpath: //input[@id='address1']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering city[[ChromeDriver: chrome on WINDOWS (4215cf2b4b7efcb59344302cb94d0acc)] -> xpath: //input[@id='city']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Selecting the state[[ChromeDriver: chrome on WINDOWS (4215cf2b4b7efcb59344302cb94d0acc)] -> xpath: //select[@id='id_state']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering postalcode[[ChromeDriver: chrome on WINDOWS (4215cf2b4b7efcb59344302cb94d0acc)] -> xpath: //input[@id='postcode']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering contact number[[ChromeDriver: chrome on WINDOWS (4215cf2b4b7efcb59344302cb94d0acc)] -> xpath: //input[@id='phone_mobile']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on register link[[ChromeDriver: chrome on WINDOWS (4215cf2b4b7efcb59344302cb94d0acc)] -> xpath: //button[@id='submitAccount']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[verifying error message : [[ChromeDriver: chrome on WINDOWS (4215cf2b4b7efcb59344302cb94d0acc)] -> css selector: div[class='alert alert-danger'] p]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userWillGetAnErrorMessageWhileCreatingAccountWithInvalidDetails -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automationpractice.testsuite.CreateAccountTest@91161c7]" name="tearDown" is-config="true" duration-ms="646" started-at="2021-12-26T21:26:21Z" finished-at="2021-12-26T21:26:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationpractice.testsuite.CreateAccountTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

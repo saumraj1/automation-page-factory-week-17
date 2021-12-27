@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="com.automationpractice.testsuite.OurStoresTest">
+        <methods>
+          <include name="userCanDragTheMapAndTakeScreenshot"/>
+          <include name="init"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automationpractice.testsuite.OurStoresTest -->
+      <class name="com.automationpractice.testsuite.SummerDressesPriceRangeTest">
+        <methods>
+          <include name="init1"/>
+          <include name="updateSearchResultsAfterChangingPriceRange"/>
+        </methods>
+      </class> <!-- com.automationpractice.testsuite.SummerDressesPriceRangeTest -->
+      <class name="com.automationpractice.testsuite.SummerDressesOptionTest">
+        <methods>
+          <include name="init1"/>
+          <include name="viewSummerDressesOptionFromTheNaviGationMenu"/>
+        </methods>
+      </class> <!-- com.automationpractice.testsuite.SummerDressesOptionTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

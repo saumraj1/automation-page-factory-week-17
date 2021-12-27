@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 52.887 s <<< FAILURE! - in TestSuite
+userCanDragTheMapAndTakeScreenshot(com.automationpractice.testsuite.OurStoresTest)  Time elapsed: 1.809 s  <<< FAILURE!
+org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: 
+move target out of bounds
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-ECCE3OFG', ip: '192.168.1.74', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [087a2d2696722db4757dcb5e01d23fed, actions {actions=[org.openqa.selenium.interactions.Sequence@2b8d084]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\laxmi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62665}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62665/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 087a2d2696722db4757dcb5e01d23fed
+	at com.automationpractice.testsuite.OurStoresTest.userCanDragTheMapAndTakeScreenshot(OurStoresTest.java:25)
+
+viewSummerDressesOptionFromTheNaviGationMenu(com.automationpractice.testsuite.SummerDressesOptionTest)  Time elapsed: 0 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-ECCE3OFG', ip: '192.168.1.74', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElements {using=xpath, value=//ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']//li//a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\laxmi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62665}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62665/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+	at com.automationpractice.testsuite.SummerDressesOptionTest.viewSummerDressesOptionFromTheNaviGationMenu(SummerDressesOptionTest.java:20)
+
+updateSearchResultsAfterChangingPriceRange(com.automationpractice.testsuite.SummerDressesPriceRangeTest)  Time elapsed: 0 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-ECCE3OFG', ip: '192.168.1.74', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElements {using=xpath, value=//ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']//li//a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\laxmi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62665}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62665/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+	at com.automationpractice.testsuite.SummerDressesPriceRangeTest.updateSearchResultsAfterChangingPriceRange(SummerDressesPriceRangeTest.java:22)
+

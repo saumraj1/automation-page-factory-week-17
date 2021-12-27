@@ -1,0 +1,7 @@
+com\automationpractice\testbase\TestBase.class
+com\automationpractice\testsuite\SummerDressesPriceRangeTest.class
+com\automationpractice\testsuite\OurStoresTest.class
+com\automationpractice\testsuite\DeletionTest.class
+com\automationpractice\testsuite\CreateAccountTest.class
+com\automationpractice\testsuite\SummerDressesOptionTest.class
+resources\testdata\TestData.class
